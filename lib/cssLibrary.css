@@ -1,0 +1,144 @@
+body{
+  padding:0;
+  margin:0;
+}
+*{
+  box-sizing:border-box;
+}
+.animateV{
+  overflow:hidden;
+}
+#body{
+  width:100%;
+  height:100%;
+  position:fixed;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+button,textarea,input{
+  outline:none;
+  border:none;
+  background:none;
+  padding:3px 6px;
+}
+a{
+text-decoration:none;
+color:initial;
+}
+.flexRound{
+  display:flex;
+  align-items:space-around;
+  justify-content:flex-around;
+}
+.flexBetween{
+  display:flex ;
+align-items:space-between ;
+justify-content:space-between ;
+}
+button{
+cursor:pointer !important;
+}
+.flexCenter{
+  display:flex ;
+  align-items:center ;
+  justify-content:center ;
+ 
+}
+hr{
+border:none;
+border-top:1px solid dimgrey;
+}
+.flexEnd{
+  display:flex ;
+  align-items:center ;
+  justify-content:flex-end ;
+ 
+}
+
+.flexStart{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  padding:16px;
+}
+.flexV{
+  display:flex;
+  justify-content:flex-start;
+  flex-flow:row nowrap;
+  align-items: flex-end;
+  padding:16px;
+}
+.flexBottom{
+display:flex;
+align-items:flex-end;
+justify-content:center;
+flex-flow:row nowrap;
+}
+.flexEnd{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  flex-flow:row nowrap;
+  }
+  .flexStart{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-flow:row nowrap;
+    }
+  
+.fixed{
+  position:fixed;
+width:100%;
+overflow-x:hidden;
+overflow-y:auto;
+}
+.scrollX{
+  overflow-x:auto;
+  overflow-y:hidden;
+  width:100%;
+  height:100%;
+}
+.scrollY{
+  overflow-x:hidden;
+  overflow-y:auto;
+  width:100%;
+  height:100%;
+}
+.scroll{
+  overflow:auto;
+  width:100%;
+  height:100%;
+}
+.fullCtn{
+  width:100%;
+  height:100%;
+}
+button,div,img,aside{
+  border-radius:3px;
+}
+
+.fixedTop{
+  width:100%;
+  height:100%;
+  position:fixed;
+top:0;
+}
+.fixedBottom{
+  width:100%;
+  height:100%;
+  position:fixed;
+bottom:0;
+}
+.fixedRight{
+  width:100%;
+  height:100%;
+  position:fixed;
+right:0;
+}
+.fixedLeft{
+  width:100%;
+  height:100%;
+  position:fixed;
+left:0;
+}
