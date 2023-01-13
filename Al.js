@@ -73,8 +73,9 @@ class AlText{
           got != undefined ? respond.push(got):""
       }
     if(this.isGreetings(message)){
+this.nameNext=true;
       const Algreets=[{
-        message:"hello , how are you , my name is "+robot+" I'm a robot , can i know your name ? ",
+        message:"hello ", "how are you ", "my name is "+robot+" I'm a robot ", "can i know your name ? ",
         type:'greetings'
       },
       {
@@ -93,7 +94,7 @@ class AlText{
       if(got===undefined) return
       respond.push(got);
      
-      
+      nameNext=true;
       
     }//end is greetings
     
