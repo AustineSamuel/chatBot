@@ -62,7 +62,10 @@ function sendBackMsg( msg ){
 qr("#sendMsg").addEventListener("click",()=>{
   
 const  msg=qr("input").value;
-const  respond=Al.findRespond(msg);
+let  respond=Al.findRespond(msg);
+if(nameNext && respond.length<=0){
+respond=Al.findRespond('my name is '+msg)
+}
 
 if(respond.length<1){
   responseNotFound++
