@@ -1,5 +1,5 @@
 body {
-    font-size: 15pt;
+    font-size: 12pt;
 }
 nav img{
   border-radius:50px;
@@ -45,8 +45,9 @@ background:white;
 #messageCtn #sendMsg{
  border-radius:5px;
  color:white;
- font-weight:bolder;
  background:var(--color);
+ font-size: small;
+ padding:2px 10px !important;
 }
 
 

@@ -1,4 +1,4 @@
-const robot="JILLY"
+const robot='Net20 robot'
 const random = (min, max) => Math.random() * (max - min + 1) + min | 0
 
 const qr= (name) => document.querySelector(name)
@@ -63,9 +63,11 @@ qr("#sendMsg").addEventListener("click",()=>{
   
 const  msg=qr("input").value;
 let  respond=Al.findRespond(msg);
-if(nameNext && respond.length<=0){
+/*
+if(respond.nameNext && respond.length<=0){
 respond=Al.findRespond('my name is '+msg)
 }
+*/
 
 if(respond.length<1){
   responseNotFound++
